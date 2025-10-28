@@ -9,6 +9,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
+    background-color: #FFFFFF;
 }
 
 a {
@@ -38,14 +39,14 @@ background: #FFFFFF;
     font-family: "Raleway", sans-serif;
 font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #4d5ae5;
 }
 
-.text-purple {
-    color: #4D5AE5;
+.logo-another-color {
+    color: ##2E2F42;
     font-family: "Raleway", sans-serif;
 }
 
@@ -71,6 +72,10 @@ font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #404BBF;
+}
+
+.contacts {
+    font-style: normal;
 }
 
 .contact-list {
@@ -110,7 +115,7 @@ background: #2E2F42;
 .title-hero {
 font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
@@ -122,10 +127,8 @@ font-weight: 700;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #4D5AE5;
         cursor:pointer;
-        align-items: center;
 }
 
 .button-hero:hover {
@@ -134,8 +137,11 @@ font-weight: 700;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #FFFFFF;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
             background: #404BBF;
+}
+
+.button-hero:focus {
+background-color: #404BBF;
 }
 
 /* #endregion hero */
@@ -185,10 +191,11 @@ background-color: #F4F4FD;
 .title-team {
 font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize;
 }
 
 .list-team {
@@ -229,10 +236,11 @@ font-weight: 400;
 .title-portfolio {
 font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize;
 }
 
 .list-portfolio {
@@ -271,12 +279,15 @@ background: #2E2F42;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #F4F4FD;
+        color: #4d5ae5;
 }
 
+.logo-color-two {
+color: #f4f4fd
+}
 
 .footer-description {
 font-weight: 400;
